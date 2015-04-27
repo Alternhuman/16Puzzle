@@ -1,0 +1,52 @@
+.tile{
+    background-color: white;
+    border: 1px solid black;
+}
+.tile, .empty {
+    float: left;
+    font-family: arial;
+    font-size: 20px;
+    height: 50px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    padding-top: 30px;
+    text-align: center;
+    width: 80px;
+}
+.empty {
+    background-color: gray;
+    border: 1px solid gray;
+    color: gray;
+}
+body {
+    color: black;
+    direction: ltr;
+}
+body, table td, select, button {
+    font-family: Arial Unicode MS,Arial,sans-serif;
+    font-size: small;
+}
+.helper {
+    float: none;
+    position: absolute;
+}
+.puzzleTable {
+    background-color: gray;
+    border: 4px solid rgb(169, 162, 84);
+    height: 332px;
+    overflow: hidden;
+    position: relative;
+    width: 332px;
+}#info{
+    float:left;
+    position:relative;
+    margin-left: 10px;
+}
+#dimension{
+    float:left;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width:800px;
+}
